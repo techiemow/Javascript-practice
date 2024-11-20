@@ -261,3 +261,57 @@ Use Cases
 Consistent Environments: When working in teams or deploying applications, having a package-lock.json ensures that everyone has the same version of every dependency, preventing "it works on my machine" problems.
 Faster Installations: Since package-lock.json includes the resolved versions of all packages, npm can install them more quickly.
 */
+
+
+
+
+// function cba(){
+//   console.log("Mowriyaa");
+  
+//   return 8
+// }
+
+// console.log(cba() , zyx());
+
+
+// function zyx(){
+//   return 8
+// }
+
+
+// function sum (a) {
+//   return function (b){
+//     return a + b;
+//   }
+  
+// }
+// console.log(sum(5)(10)); // Outputs 15 (direct usage: sum(5) returns a function that adds 10)
+
+// function fch ( h,f) {
+     
+//     if (h<f){
+//         console.log("f is greater");
+        
+//     } else {
+//       console.log("h is greater");
+//     }
+     
+//     return;
+//     console.log(h + f);
+     
+// }
+
+// console.log(fch(8,6));
+// console.log(fch(4,6));
+
+
+
+
+
+const one  = false || {} || null;
+const two  = null || false || "";
+const three  = {} || 0 || true;
+
+console.log(one,two,three);
+
+
